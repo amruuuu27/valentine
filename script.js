@@ -18,10 +18,11 @@ function celebrate() {
     const gif = document.getElementById('mainGif');
 
     // Update the UI
-    question.innerHTML = "I knew you couldnt resist! 😘💗";
+    question.innerHTML = "I knew you couldn't resist! 😘💗";
     buttons.style.display = 'none';
 
     // Change the GIF to a happy one
     gif.src = "https://media.tenor.com/IdO7A6O2IzUAAAAM/love-you.gif";
 
 }
+
