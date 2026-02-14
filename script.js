@@ -20,7 +20,7 @@ function celebrate() {
 
     
     // Update the UI
-    question.innerHTML = "I knew you couldn't resist! 😘💗 \n  Happy Valentines Day to my favorite Nivuu. I dont say it enough, but Im so grateful for how you handle me and how much you support what I do. You make me want to be a better version of myself without ever making me feel like Im not enough exactly as I am. Youre incredible, and Im lucky I get to be the one by your side.;
+    question.innerHTML = "I knew you couldn't resist! 😘💗 Happy Valentines Day to my favorite Nivuu. I dont say it enough, but Im so grateful for how you handle me and how much you support what I do. You make me want to be a better version of myself without ever making me feel like Im not enough exactly as I am. Youre incredible, and Im lucky I get to be the one by your side.;
     buttons.style.display = 'none';
 
     // 1. Create a new Image object
@@ -46,6 +46,7 @@ document.body.appendChild(img);
     gif.src = "https://media.tenor.com/IdO7A6O2IzUAAAAM/love-you.gif";
 
 }
+
 
 
 
