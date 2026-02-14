@@ -20,7 +20,7 @@ function celebrate() {
 
     
     // Update the UI
-    question.innerHTML = "I knew you couldn't resist! 😘💗";
+    question.innerHTML = "I knew you couldn't resist! 😘💗 \n Happy Valentine’s Day to my favorite human. I don’t say it enough, but I’m so grateful for how you handle me and how much you support what I do. You make me want to be a better version of myself without ever making me feel like I’m not enough exactly as I am. You’re incredible, and I’m lucky I get to be the one by your side.";
     buttons.style.display = 'none';
 
     // 1. Create a new Image object
@@ -46,6 +46,7 @@ document.body.appendChild(img);
     gif.src = "https://media.tenor.com/IdO7A6O2IzUAAAAM/love-you.gif";
 
 }
+
 
 
 
