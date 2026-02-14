@@ -16,7 +16,7 @@ function celebrate() {
     const question = document.getElementById('question');
     const buttons = document.querySelector('.buttons');
     const gif = document.getElementById('mainGif');
-    const img = document.getElementById('new Image');
+    
 
     
     // Update the UI
@@ -46,6 +46,7 @@ document.body.appendChild(img);
     gif.src = "https://media.tenor.com/IdO7A6O2IzUAAAAM/love-you.gif";
 
 }
+
 
 
 
