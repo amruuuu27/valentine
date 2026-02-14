@@ -21,8 +21,28 @@ function celebrate() {
     question.innerHTML = "I knew you couldn't resist! 😘💗";
     buttons.style.display = 'none';
 
+    // 1. Create a new Image object
+const img = new Image();
+
+// 2. Set the desired width and height (in pixels)
+img.width = 200; // sets the width attribute to 300px
+img.height = 300; // sets the height attribute to 200px
+
+// 3. Set the image source. It is best to do this *after* setting the onload handler.
+img.src = 'Amruth nivu.jpeg'; 
+
+// 4. (Optional) Add an onload event handler to run code after the image is fully loaded
+img.onload = function() {
+    console.log("Image loaded with set dimensions: " + img.width + "x" + img.height);
+};
+
+// 5. Append the image element to the desired location in the DOM (e.g., the body or a specific div)
+document.body.appendChild(img);
+
+
     // Change the GIF to a happy one
     gif.src = "https://media.tenor.com/IdO7A6O2IzUAAAAM/love-you.gif";
 
 }
+
 
